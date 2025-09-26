@@ -4,7 +4,7 @@ A lightweight, embeddable JavaScript widget that allows website visitors to prov
 
 # Features
 
-- Fully self-contained: just include a <div> and the script.
+- Fully self-contained: just include a `<div>` and the script.
 
 - Interactive buttons for thumbs up 👍 and thumbs down 👎.
 
