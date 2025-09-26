@@ -19,12 +19,10 @@ voteDiv.appendChild(buttonDown);
 
 // Functionality
 const handleUpvote = () => {
-  console.log("Thumbs up");
   handleFeedback("up");
 };
 
 const handleDownvote = () => {
-  console.log("Thumbs down");
   handleFeedback("down");
 };
 
@@ -37,8 +35,8 @@ const handleFeedback = async (vote) => {
   // TEMP: This fade-out and removal is only for demonstration purposes
   // to show how the widget behaves when a vote is cast. In a real app,
   // you would keep the widget visible or remove it only after a successful API response.
-  widget.style.opacity = "0";
   console.log(vote);
+  widget.style.opacity = "0";
   widget.addEventListener("transitionend", function removeWidget(e) {
     if (e.propertyName === "opacity") {
       widget.remove();
