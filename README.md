@@ -14,7 +14,7 @@ A lightweight, embeddable JavaScript widget that allows website visitors to prov
 
 - Responsive and lightweight, works on any modern browser.
 
-Installation
+# Installation
 
 1. Add a container <div> where you want the widget to appear:
 
